@@ -1,5 +1,5 @@
 body{
-	background-color: black;
+	background-color: rgb(46, 207, 186);
 }
 
 .clock{
@@ -7,7 +7,8 @@ body{
 	height :300px;
 	display: block;
 	border-radius: 50%;
-	border: 5px solid rgb(11, 234, 0);
+	border: 15px solid rgb(45, 255, 227);
+	box-shadow: 5px 5px 5px 5px inset;
 	background-color: white;
 	position: absolute;
 	left: 40%;
@@ -20,12 +21,13 @@ body{
 	border-radius: 50%;
 	background-color: gold;
 	position: relative;
-	bottom: 205px;
-	left: 140px;
+	bottom: 200px;
+	left: 137px;
+	
 }
 .min{
 	width:2px;
-	height:110px;
+	height:100px;
 	background-color: blue;
 	position: relative;
 	left: 150px;
@@ -51,7 +53,7 @@ body{
 	background-color: black;
 	position: relative;
 	left: 150px;
-	top:10px;
+	top:3px;
 	transform-origin: bottom left;
 	transition: transform 1s linear;
 }
